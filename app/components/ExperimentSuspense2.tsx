@@ -1,8 +1,8 @@
 const sleep = (waitTime: number) => new Promise( resolve => setTimeout(resolve, waitTime) );
 
-export const ExperimentSuspense = async() => {
-   await sleep(3000)
+export const ExperimentSuspense2 = async() => {
+   await sleep(7000)
    return (
-    <p>解決したよ1</p>
+    <p>解決したよ2</p>
    )
 }
