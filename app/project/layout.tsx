@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function ProjectLayout({
   children
 }: {
@@ -7,7 +9,7 @@ export default function ProjectLayout({
     <section>
       {/* Include shared UI here e.g. a header or sidebar */}
       <nav>ccc</nav>
- 
+
       {children}
     </section>
   )
