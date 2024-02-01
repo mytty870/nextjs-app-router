@@ -4,14 +4,17 @@
     "eslint:recommended",
     "next/core-web-vitals",
     "plugin:jest/recommended",
-    "plugin:testing-library/react"
+    "plugin:testing-library/react",
+    "prettier"
   ],
   "rules": {
-    "jest/consistent-test-it": ["error", {"fn": "it"}],
+    // test よりも it を使う
+    "jest/consistent-test-it": ["error", { "fn": "it" }],
+    // Top レベルに describe がなければエラー
     "jest/require-top-level-describe": ["error"],
+    // fireEvent よりも preferEvent を使う
     "testing-library/prefer-user-event": ["warn"],
-    "testing-library/prefer-screen-queries": ["warn"],
+    // debug があればエラー
     "testing-library/no-debugging-utils": ["error"]
-    
   }
 }
