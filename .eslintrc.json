@@ -1,12 +1,17 @@
 {
-  "plugins": ["jest"],
+  "plugins": ["jest", "testing-library"],
   "extends": [
     "eslint:recommended",
     "next/core-web-vitals",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "plugin:testing-library/react"
   ],
   "rules": {
     "jest/consistent-test-it": ["error", {"fn": "it"}],
-    "jest/require-top-level-describe": ["error"]
+    "jest/require-top-level-describe": ["error"],
+    "testing-library/prefer-user-event": ["warn"],
+    "testing-library/prefer-screen-queries": ["warn"],
+    "testing-library/no-debugging-utils": ["error"]
+    
   }
 }
