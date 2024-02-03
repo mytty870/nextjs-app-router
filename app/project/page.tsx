@@ -1,8 +1,8 @@
 'use client'
-import { useRouter } from "next/navigation";
-import { ExperimentSuspense } from "../../components/ExperimentSuspense";
-import { Suspense } from "react";
-import { ExperimentSuspense2 } from "../../components/ExperimentSuspense2";
+import { useRouter } from 'next/navigation'
+import { ExperimentSuspense } from '../../components/ExperimentSuspense'
+import { Suspense } from 'react'
+import { ExperimentSuspense2 } from '../../components/ExperimentSuspense2'
 
 export default function Page() {
   const router = useRouter()

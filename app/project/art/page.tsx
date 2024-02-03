@@ -1,5 +1,3 @@
 export default function Page() {
-  return (
-    <div>Art Page</div>
-  )
+  return <div>Art Page</div>
 }

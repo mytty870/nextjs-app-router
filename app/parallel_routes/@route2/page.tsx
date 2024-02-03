@@ -1,5 +1,3 @@
 export default function Page() {
-  return (
-    <div>ROUTE 2</div>
-  )
+  return <div>ROUTE 2</div>
 }
