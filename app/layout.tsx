@@ -30,6 +30,9 @@ export default function RootLayout({
             <li>
               <Link href="/project/art">ART</Link>
             </li>
+            <li>
+              <Link href="/user_info">ユーザー情報登録ページ</Link>
+            </li>
           </ul>
         </nav>
         {children}
