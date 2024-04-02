@@ -3,5 +3,8 @@
   "extends": ["config:base"],
   "matchUpdateTypes": ["minor", "patch"],
   "automerge": true,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "major": {
+    "enabled": false
+ }
 }
